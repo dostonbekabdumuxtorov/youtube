@@ -1,0 +1,27 @@
+.home-card{
+	width: 400px;
+	min-height: 350px;
+	
+	flex-grow: 1;
+	transition: 0.3s;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.home-card:active{
+	background-color: rgb(244, 239, 239);
+}
+
+.home-card .thumbnail{
+	width: 100%;
+	height: 240px;
+	border-radius: 10px;
+}
+
+.home-card .card-texts{
+	display: flex;
+	gap: 7px;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}

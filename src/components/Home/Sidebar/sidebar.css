@@ -1,0 +1,29 @@
+.sidebar{
+	width: 100%;
+	padding: 15px;
+}
+
+.side-button{
+	width: 100%;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: flex-start !important;
+	padding: 6px 20px !important;
+	gap: 10px;
+	margin-bottom: 5px !important;
+	margin-top: 5px !important;
+	border-radius: 10px !important;
+}
+
+.btn-icon{
+	font-size: 25px !important;
+	color: rgb(63, 63, 63);
+}
+.side-button:hover{
+	background-color: gainsboro;
+}
+.side-button p{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+}

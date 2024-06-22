@@ -1,0 +1,72 @@
+.videos-main-wrapper {
+	
+
+}
+
+.categories-container {
+    width: 100%;
+    height: 55px;
+	padding: 0px 15px;
+    display: flex;
+    overflow-x: scroll;
+	overflow-y: hidden;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.categories-container::-webkit-scrollbar {
+    width: 1px;
+	height: 0px;
+}
+
+.categories-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.categories-container::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+
+}
+
+
+.cat-btn {
+    min-width: auto !important;
+    height: 30px !important;
+	background-color: rgb(246, 240, 240) !important;
+	color: rgb(0, 0, 0) !important;
+    text-wrap: nowrap;
+	text-transform: capitalize !important;
+	font-size: 14px !important;
+}
+
+.active-btn{
+	background-color: black !important;
+	color: white !important;
+}
+
+.cards-container{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 15px;
+	justify-content: space-between;
+	align-items: center;
+	gap: 15px;
+	height: calc(100vh - 115px);
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.cards-container::-webkit-scrollbar {
+    width: 0.3em;
+}
+
+.cards-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.cards-container::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+
+}

@@ -1,0 +1,15 @@
+.home-container{
+	width: 100%;
+	height: calc(100vh - 60px);
+	display: flex;
+}
+
+.sidebar-container{
+	width: 15%;
+	height: 100%;
+}
+
+.videos-container{
+	width: 85%;
+	height: 100%;
+}

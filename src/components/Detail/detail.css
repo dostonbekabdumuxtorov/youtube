@@ -1,0 +1,51 @@
+.detail-container{
+	width: 100%;
+	max-width: 1300px;
+	min-height: 400px;
+	display: flex;
+	margin: auto;
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.left-detail{
+	width: 65%;
+	
+}
+
+.right-detail{
+	width: 35%;
+}
+
+.channel-row{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	justify-content: space-between;
+	padding: 10px 0px;
+}
+
+.channel-row button{
+	border-radius: 20px;
+	border: none;
+	width: auto;
+	padding: 0px 15px !important;
+	height: 40px;
+	background-color: black;
+	color: white;
+}
+
+.channel-row button:hover{
+	background-color: rgb(62, 62, 62);
+}
+.chanel-info{
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.chanel-btns{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
