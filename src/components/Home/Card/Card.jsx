@@ -9,7 +9,7 @@ function Card({ item }) {
 
 	return (
 		<div className='home-card' onClick={() => navigate(`/watch/${item.id.videoId}`)}>
-			<img className='thumbnail' src={item.snippet.thumbnails.medium.url} alt="" />
+			<img className='thumbnail' src={item.snippet.thumbnails.high.url} alt="" />
 			<div className='card-texts'>
 				<Avatar src={item.snippet.thumbnails.medium.url} />
 				<div>
